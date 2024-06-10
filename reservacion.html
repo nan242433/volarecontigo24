@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservaciones de Avión y Terrestre</title>
+  <link rel="stylesheet" href="styles.css">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Reservaciones de Avión y Terrestre</h1>
+ 
+        <h1>Mi Sitio Web</h1>
+    
+       
+              
+               <nav class="menu">
+        <ul>
+           <li class="dropdown">
+                <a href="index.html">Inicio &#9660;</a>
+                <ul class="dropdown-content">
+                    <li><a href="formulario">Formulario</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                   
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="acerca.html">Acerca de Nosotros &#9660;</a>
+                <ul class="dropdown-content">
+                    <li><a href="acerca.html">Quiénes Somos</a></li>
+                    <li><a href="reservacion.html">Tipo de Reservaciones</a></li>
+                   
+                </ul>
+            </li>
+           <li class="dropdown">
+                <a href="formulario.html">Reservar &#9660;</a>
+                <ul class="dropdown-content">
+                    <li><a href="index.html">Formulario de Registro</a></li>
+                    <li><a href="acerca.html">Tipo de Reservaciones</a></li>
+                   
+                </ul>
+            </li>
+           <li class="dropdown">
+                <a href="contacto..html">Contacto &#9660;</a>
+                <ul class="dropdown-content">
+                    <li><a href="contacto.html">Contactános</a></li>
+                    
+                   
+                </ul>
+            </li>
+
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <section id="flight-reservation">
+      <h2>Reservaciones de Vuelo</h2>
+      <form id="flight-search-form">
+        <label for="origin">Origen:</label>
+        <input type="text" id="origin" required>
+        <label for="destination">Destino:</label>
+        <input type="text" id="destination" required>
+        <label for="departure-date">Fecha de Salida:</label>
+        <input type="date" id="departure-date" required>
+        <button type="submit">Buscar Vuelos</button>
+      </form>
+      <div id="flight-results">
+        <!-- Aquí se mostrarán los resultados de la búsqueda de vuelos -->
+      </div>
+    </section>
+    <section id="ground-reservation">
+      <h2>Reservaciones de Transporte Terrestre</h2>
+      <form id="ground-search-form">
+        <label for="origin-ground">Origen:</label>
+        <input type="text" id="origin-ground" required>
+        <label for="destination-ground">Destino:</label>
+        <input type="text" id="destination-ground" required>
+        <label for="departure-date-ground">Fecha de Salida:</label>
+        <input type="date" id="departure-date-ground" required>
+        <button type="submit">Buscar Transporte</button>
+      </form>
+      <div id="ground-results">
+        <!-- Aquí se mostrarán los resultados de la búsqueda de transporte terrestre -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Reservaciones de Avión y Terrestre – NEGC - PW1 – 2024/05/10</p>
+  </footer>
+  <script src="scripts.js"></script>
+    <a href="#inicio">Volver al inicio</a>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
